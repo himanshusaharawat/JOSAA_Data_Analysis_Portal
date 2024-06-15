@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>
+            JOSAA
+         </title>
+         <style>
+           .header{
+                 font-size: 40px;
+                 padding-top: 20px;
+                 padding-bottom: 20px;
+                 padding-left: 20px; 
+                 background-color: rgb(248, 44, 44);
+                 margin-top: 0px;
+            }
+            .header2{
+                font-size: 21px;
+                 padding-top: 31px;
+                 padding-bottom: 31px;
+                 padding-left: 20px; 
+                 background-color: rgb(248, 44, 44);
+                 margin-top: 0px;
+            }
+            .span:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            body {
+                position: relative;
+            }
+    
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                
+                background-color: #f0f0f0; /* Light gray background */
+                z-index: -1;
+                pointer-events: none;
+            }
+            .content {
+                background: white;
+                padding: 20px;
+                margin: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .main{
+                
+                 display: inline-block;
+                 padding-left: 20px;
+                 padding-right: 20px;
+                 padding-top: 20px;
+                 padding-bottom: 5px;
+                 border-width: 1px;
+                 border-style: solid;
+                 border-color:black;
+                 border-radius: 10px;
+                 box-shadow:  10px 10px 3px rgba(0,0,0,0.05);
+                 margin-left: 50px;
+                 margin-bottom: 100px;
+                 background-color: rgb(151, 201, 221);
+            }
+            .Institute{
+                font-size: 30px;
+                 display: inline-block;
+                 padding-left: 130px;
+                 padding-right: 130px;
+                 padding-top: 8px;
+                 padding-bottom: 8px;
+                 border-width: 1px;
+                 border-style: solid;
+                 border-color:black;
+                 border-radius: 10px;
+                 box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+                 background-color: pink;
+            }
+            .image{
+                height: 150px;
+                width: 150px;
+                padding-bottom: 10px;
+                padding-left: 50px;
+                padding-top: 20px;
+            }
+            .info{
+                font-size: 20px;
+                padding-top: 10px;
+            }
+         </style>
+    </head>
+    <body>
+        <div style="
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+        ">
+        <div style="padding-top: 0px;
+                    flex:3;
+                   ">    
+            <p class="header"><b>
+                JOSAA  DATA  ANALYSIS  PORTAL
+            </b></p>
+            
+        </div>  
+        <div style="flex:1;">
+            <a href="homepage.html">
+                 <p class="header2">  <span class="span"> Home </span> </p>
+            </a> 
+        </div>
+        <div style=" flex:1; ">  
+            <p class="header2"> <span class="span">
+         About </span> </p>
+         </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/20.embed">
+            Indian Institute of Technology Madras
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Madras.png">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 1</u> 
+                </p>
+                <p>
+                    <u> Established: 1959</u>
+                </p>
+                <p>
+                    <u> Location: Chennai,Tamil Nadu</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/8.embed">
+            Indian Institute of Technology Delhi
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/delhi.gif">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 2</u> 
+                </p>
+                <p>
+                    <u> Established: 1963</u>
+                </p>
+                <p>
+                    <u> Location: Delhi,India</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/4.embed">
+            Indian Institute of Technology Bombay
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Bombay.jpeg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 3</u> 
+                </p>
+                <p>
+                    <u> Established: 1958</u>
+                </p>
+                <p>
+                    <u> Location: Bombay, Maharastra</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/18.embed">
+            Indian Institute of Technology Kanpur
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Kanpur.jpeg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 4</u> 
+                </p>
+                <p>
+                    <u> Established: 1959</u>
+                </p>
+                <p>
+                    <u> Location: Kanpur, Uttar pradesh</u>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/12.embed">
+            Indian Institute of Technology Kharagpur
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Kharagpur.jpeg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 6</u> 
+                </p>
+                <p>
+                    <u> Established: 1951</u>
+                </p>
+                <p>
+                    <u> Location: Kharagpur, West Bengal</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/26.embed">
+            Indian Institute of Technology Roorkee
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Roorkee.jpeg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 7</u> 
+                </p>
+                <p>
+                    <u> Established: 1951</u>
+                </p>
+                <p>
+                    <u> Location: Roorkee, Uttrakhand</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/34.embed">
+            Indian Institute of Technology Guwahati
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Guwahati.jpeg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 8</u> 
+                </p>
+                <p>
+                    <u> Established: 1993</u>
+                </p>
+                <p>
+                    <u> Location: Guwahati, Assam</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/14.embed">
+            Indian Institute of Technology Hyderabad
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Hyderabad.jpeg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 9</u> 
+                </p>
+                <p>
+                    <u> Established: 2008</u>
+                </p>
+                <p>
+                    <u> Location: Hyderabad,Telangna</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/10.embed">
+            Indian Institute of Technology Indore
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Indore.png">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 14</u> 
+                </p>
+                <p>
+                    <u> Established: 2008</u>
+                </p>
+                <p>
+                    <u> Location: Indore,Madhya Pradesh</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/32.embed">
+            Indian Institute of Technology (BHU) Varanasi
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/bhu.png">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 15</u> 
+                </p>
+                <p>
+                    <u> Established: 1926</u>
+                </p>
+                <p>
+                    <u> Location: Varanasi,Uttar Pradesh</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/28.embed">
+            Indian Institute of Technology (ISM) Dhanbad
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Dhanbad.jpeg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 17</u> 
+                </p>
+                <p>
+                    <u> Established: 2009</u>
+                </p>
+                <p>
+                    <u> Location: Dhanbad,Jharkhand</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/30.embed">
+            Indian Institute of Technology Ropar
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Ropar.png">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 22</u> 
+                </p>
+                <p>
+                    <u> Established: 2008</u>
+                </p>
+                <p>
+                    <u> Location: Ropar,Punjab</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/6.embed">
+            Indian Institute of Technology Mandi
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Mandi.jpg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 33</u> 
+                </p>
+                <p>
+                    <u> Established: 2008</u>
+                </p>
+                <p>
+                    <u> Location: Mandi,Himachal Pradesh</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/16.embed">
+            Indian Institute of Technology Jodhpur
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/jodhpur.jpg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 38</u> 
+                </p>
+                <p>
+                    <u> Established: 2009</u>
+                </p>
+                <p>
+                    <u> Location: Jodhpur,Rajasthan</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/22.embed">
+            Indian Institute of Technology Gandhinagar
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/gandhinagar.webp">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 40</u> 
+                </p>
+                <p>
+                    <u> Established: 2008</u>
+                </p>
+                <p>
+                    <u> Location: Gandhinagar,Gujrat</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/1.embed">
+            Indian Institute of Technology Bhubaneshwar
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Bhubaneswar.jpg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 27</u> 
+                </p>
+                <p>
+                    <u> Established: 2015</u>
+                </p>
+                <p>
+                    <u> Location: Bhubaneshwar,Odissa</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/24.embed">
+            Indian Institute of Technology Patna
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Patna.webp">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 41</u> 
+                </p>
+                <p>
+                    <u> Established: 2008</u>
+                </p>
+                <p>
+                    <u> Location: Patna,Bihar</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/42.embed">
+            Indian Institute of Technology Tirupati
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/tirupati.jpg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 59</u> 
+                </p>
+                <p>
+                    <u> Established: 2015</u>
+                </p>
+                <p>
+                    <u> Location: Tirupati,Andhra Pradesh</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/40.embed">
+            Indian Institute of Technology Palakkad
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Palakkad.webp">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 69</u> 
+                </p>
+                <p>
+                    <u> Established: 2016</u>
+                </p>
+                <p>
+                    <u> Location:Palakkad,Kerala</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/38.embed">
+            Indian Institute of Technology Goa
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Goa.jpg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: unranked</u> 
+                </p>
+                <p>
+                    <u> Established: 2016</u>
+                </p>
+                <p>
+                    <u> Location: Ponda,Goa</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/44.embed">
+            Indian Institute of Technology Jammu
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/jammu.png">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 67</u> 
+                </p>
+                <p>
+                    <u> Established: 2016</u>
+                </p>
+                <p>
+                    <u> Location: Jammu,Jammu&Kashmir</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/44.embed">
+            Indian Institute of Technology Dharwad
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Dharwad.jpg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 93</u> 
+                </p>
+                <p>
+                    <u> Established: 2016</u>
+                </p>
+                <p>
+                    <u> Location: Dharwad,Karnataka</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="Institute" href="https://chart-studio.plotly.com/~himanshu_saharawat/36.embed">
+            Indian Institute of Technology Bhilai
+        </a>   
+        <div style="display: flex;
+                    flex-direction: row;
+                ">
+            <div style="flex: 1;">
+                <img class="image" src="Institute/Bhiali.jpg">
+            </div>
+            <div style="flex: 1;" class="info">
+                <p>
+                   <u> NIRF Ranking: 81</u> 
+                </p>
+                <p>
+                    <u> Established: 2016</u>
+                </p>
+                <p>
+                    <u> Location: Bhilai,Chhattisgarh</u>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
