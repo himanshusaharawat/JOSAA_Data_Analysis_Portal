@@ -3,7 +3,7 @@
   JOSAA website, performing data cleaning and analysis, and presenting the insights through visualizations on a website frontend. The website presents the findings through interactive charts , enabling users 
   to gain valuable insights into the trends and patterns of seat allotments over the years.
 
-#Access to website
+# Access to website
   For accessing the website : [click here](https://himanshusaharawat.github.io/JOSAA_Data_Analysis_Portal/)
 
 # Tech Stack/ Frameworks:
